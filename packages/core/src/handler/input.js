@@ -1,6 +1,6 @@
-import extend from '@form-create/utils/lib/extend';
-import {$set} from '@form-create/utils/lib/modify';
-import is, {hasProperty} from '@form-create/utils/lib/type';
+import extend from '@daisy-form/utils/lib/extend';
+import {$set} from '@daisy-form/utils/lib/modify';
+import is, {hasProperty} from '@daisy-form/utils/lib/type';
 import {invoke} from '../frame/util';
 import {customRef, reactive, toRef} from 'vue';
 

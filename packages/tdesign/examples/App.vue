@@ -4,7 +4,7 @@
  * @LastEditors  : djkloop
  * @LastEditTime : 2020-08-15 22:00:47
  * @Description  : 头部注释
- * @FilePath     : /form-create2/packages/tdesign/examples/App.vue
+ * @FilePath     : /daisy-form2/packages/tdesign/examples/App.vue
 -->
 <template>
     <div>
@@ -88,8 +88,8 @@
         </section>
         <TRow>
             <h3>Render</h3>
-            <form-create :rule="rule" :test="true" v-model:api="fapi" :option="option" v-model="formData"
-                         @prefix-change="change" @xaboy-change="change" />
+            <daisy-form :rule="rule" :test="true" v-model:api="fapi" :option="option" v-model="formData"
+                         @prefix-change="change" @xmlKevin-change="change" />
 
         </TRow>
     </div>

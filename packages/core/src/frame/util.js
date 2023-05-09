@@ -1,12 +1,12 @@
-import deepExtend from '@form-create/utils/lib/deepextend';
-import is from '@form-create/utils/lib/type';
-import mergeProps from '@form-create/utils/lib/mergeprops';
+import deepExtend from '@daisy-form/utils/lib/deepextend';
+import is from '@daisy-form/utils/lib/type';
+import mergeProps from '@daisy-form/utils/lib/mergeprops';
 import {arrayAttrs, normalAttrs} from './attrs';
-import {logError} from '@form-create/utils/lib/console';
+import {logError} from '@daisy-form/utils/lib/console';
 import {isVNode} from 'vue';
-import {upper} from '@form-create/utils/lib/toline';
+import {upper} from '@daisy-form/utils/lib/toline';
 
-export {parseJson, parseFn, toJson} from '@form-create/utils/lib/json';
+export {parseJson, parseFn, toJson} from '@daisy-form/utils/lib/json';
 
 export function enumerable(value, writable) {
     return {

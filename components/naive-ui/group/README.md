@@ -1,6 +1,6 @@
-# @form-create/component-naive-group
+# @daisy-form/component-naive-group
 
-@form-create/naive-ui 内置组件
+@daisy-form/naive-ui 内置组件
 
-[GitHub](https://github.com/xaboy/form-create) | [文档](http://form-create.com/v3/) | [Document](http://form-create.com/v3/)
+[GitHub](https://github.com/xmlKevin/daisy-form) | [文档](http://daisy-form.com/v3/) | [Document](http://daisy-form.com/v3/)
 

@@ -1,7 +1,7 @@
 import getConfig from './config';
-import mergeProps from '@form-create/utils/lib/mergeprops';
-import is, {hasProperty} from '@form-create/utils/lib/type';
-import extend from '@form-create/utils/lib/extend';
+import mergeProps from '@daisy-form/utils/lib/mergeprops';
+import is, {hasProperty} from '@daisy-form/utils/lib/type';
+import extend from '@daisy-form/utils/lib/extend';
 
 function tidy(props, name) {
     if (!hasProperty(props, name)) return;
@@ -99,7 +99,7 @@ export default {
                     e.preventDefault();
                 }
             },
-            class: [form.className, form.class, 'form-create'],
+            class: [form.className, form.class, 'daisy-form'],
             style: form.style,
             type: 'form',
         };

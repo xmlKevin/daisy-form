@@ -4,7 +4,7 @@
  * @LastEditors  : djkloop
  * @LastEditTime : 2020-08-15 22:01:32
  * @Description  : 头部注释
- * @FilePath     : /form-create2/packages/tdesign/examples/main.js
+ * @FilePath     : /daisy-form2/packages/tdesign/examples/main.js
  */
 import {createApp,h, defineComponent} from 'vue'
 
@@ -28,7 +28,7 @@ import addressEffect from './addressEffect';
 // app.use(VJsoneditor)
 
 
-import wangEditor from '@form-create/component-wangeditor/src'
+import wangEditor from '@daisy-form/component-wangeditor/src'
 FormCreate.register(addressEffect);
 FormCreate.component('wangEditor', wangEditor);
 

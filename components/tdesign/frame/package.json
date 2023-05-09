@@ -1,7 +1,7 @@
 {
-  "name": "@form-create/component-tdesign-frame",
+  "name": "@daisy-form/component-tdesign-frame",
   "version": "3.1.15",
-  "description": "@form-create/tdesign 内置组件",
+  "description": "@daisy-form/tdesign 内置组件",
   "main": "./dist/index.min.js",
   "module": "./dist/index.esm.js",
   "unpkg": "./dist/index.min.js",
@@ -19,28 +19,28 @@
     "dist"
   ],
   "keywords": [
-    "@form-create",
-    "form-create-component",
+    "@daisy-form",
+    "daisy-form-component",
     "tdesign"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xaboy/form-create.git"
+    "url": "git+https://github.com/xmlKevin/daisy-form.git"
   },
-  "author": "xaboy",
+  "author": "xmlKevin",
   "license": "MIT",
   "dependencies": {
-    "@form-create/utils": "^3.1.15"
+    "@daisy-form/utils": "^3.1.15"
   },
   "bugs": {
-    "url": "https://github.com/xaboy/form-create/issues"
+    "url": "https://github.com/xmlKevin/daisy-form/issues"
   },
-  "homepage": "http://www.form-create.com",
+  "homepage": "http://www.daisy-form.com",
   "publishConfig": {
     "access": "public"
   },
   "buildFormCreateOptions": {
-    "name": "@form-create/component-tdesign-frame",
+    "name": "@daisy-form/component-tdesign-frame",
     "exportName": "FcFrame",
     "formats": [
       "umd",

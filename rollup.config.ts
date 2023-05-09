@@ -4,7 +4,7 @@
  * @LastEditors  : djkloop
  * @LastEditTime : 2021-09-20 18:53:25
  * @Description  : rollup.config.ts
- * @FilePath     : /form-create2/rollup.config.ts
+ * @FilePath     : /daisy-form2/rollup.config.ts
  *
  *
  * ****************************************** !!!Notice!!! ***********************************************
@@ -60,7 +60,7 @@ const isMult = packageOptions.isMulti
 
 
 const _banner = {
-  author: isPackaegs ? `2018-${new Date().getFullYear()} ${pkg.author}\n * Github https://github.com/xaboy/form-create` : `2018-${new Date().getFullYear()} ${pkg.author}\n * Github https://github.com/xaboy/form-create with ${process.env.BUILD_TARGET_COMP}`,
+  author: isPackaegs ? `2018-${new Date().getFullYear()} ${pkg.author}\n * Github https://github.com/xmlKevin/daisy-form` : `2018-${new Date().getFullYear()} ${pkg.author}\n * Github https://github.com/xmlKevin/daisy-form with ${process.env.BUILD_TARGET_COMP}`,
   license: pkg.license,
   name: libName,
   version

@@ -1,19 +1,19 @@
-.form-create {
+.daisy-form {
     width: 100%;
 }
 
-.form-create .t-tree .t-tree__icon {
+.daisy-form .t-tree .t-tree__icon {
     line-height: inherit;
 }
 
-.form-create.t-form:not(.t-form-inline) .t-form__item:last-of-type {
+.daisy-form.t-form:not(.t-form-inline) .t-form__item:last-of-type {
     margin-bottom: 24px;
 }
 
-.form-create .form-create .t-is-error .t-input__extra {
+.daisy-form .daisy-form .t-is-error .t-input__extra {
     color: var(--td-error-color);
 }
 
-.form-create .form-create .t-is-warning .t-input__extra {
+.daisy-form .daisy-form .t-is-warning .t-input__extra {
     color: var(--td-warning-color);
 }

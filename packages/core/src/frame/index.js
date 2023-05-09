@@ -7,16 +7,16 @@ import {creatorFactory} from '..';
 import BaseParser from '../factory/parser';
 import {copyRule, copyRules, mergeGlobal, parseJson, toJson, parseFn, invoke} from './util';
 import fragment from '../components/fragment';
-import is from '@form-create/utils/lib/type';
-import toCase from '@form-create/utils/lib/tocase';
-import extend from '@form-create/utils/lib/extend';
+import is from '@daisy-form/utils/lib/type';
+import toCase from '@daisy-form/utils/lib/tocase';
+import extend from '@daisy-form/utils/lib/extend';
 import {CreateNodeFactory} from '../factory/node';
 import {createManager} from '../factory/manager';
 import {arrayAttrs, keyAttrs, normalAttrs} from './attrs';
 import {appendProto} from '../factory/creator';
 import $provider from './provider';
-import {deepCopy} from '@form-create/utils/lib/deepextend';
-import Mitt from '@form-create/utils/lib/mitt';
+import {deepCopy} from '@daisy-form/utils/lib/deepextend';
+import Mitt from '@daisy-form/utils/lib/mitt';
 import html from '../parser/html';
 
 function parseProp(name, id) {

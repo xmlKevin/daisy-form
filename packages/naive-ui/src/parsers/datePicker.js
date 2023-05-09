@@ -1,4 +1,4 @@
-import {creatorFactory} from '@form-create/core/src/index';
+import {creatorFactory} from '@daisy-form/core/src/index';
 
 const name = 'datePicker';
 

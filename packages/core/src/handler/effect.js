@@ -1,6 +1,6 @@
-import extend from '@form-create/utils/lib/extend';
-import is, {hasProperty} from '@form-create/utils/lib/type';
-import mergeProps from '@form-create/utils/lib/mergeprops';
+import extend from '@daisy-form/utils/lib/extend';
+import is, {hasProperty} from '@daisy-form/utils/lib/type';
+import mergeProps from '@daisy-form/utils/lib/mergeprops';
 import {mergeRule} from '../frame/util';
 import {watch} from 'vue';
 

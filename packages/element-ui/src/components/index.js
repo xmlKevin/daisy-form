@@ -1,11 +1,11 @@
-import checkbox from '@form-create/component-elm-checkbox/src/index';
-import frame from '@form-create/component-elm-frame/src/index';
-import radio from '@form-create/component-elm-radio/src/index';
-import select from '@form-create/component-elm-select/src/index';
-import tree from '@form-create/component-elm-tree/src/index';
-import upload from '@form-create/component-elm-upload/src/index';
-import group from '@form-create/component-elm-group/src/index';
-import subForm from '@form-create/component-subform/src/index';
+import checkbox from '@daisy-form/component-elm-checkbox/src/index';
+import frame from '@daisy-form/component-elm-frame/src/index';
+import radio from '@daisy-form/component-elm-radio/src/index';
+import select from '@daisy-form/component-elm-select/src/index';
+import tree from '@daisy-form/component-elm-tree/src/index';
+import upload from '@daisy-form/component-elm-upload/src/index';
+import group from '@daisy-form/component-elm-group/src/index';
+import subForm from '@daisy-form/component-subform/src/index';
 import IconWarning from './icon/IconWarning.vue';
 
 

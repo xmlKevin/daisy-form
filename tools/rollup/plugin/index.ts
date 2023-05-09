@@ -4,7 +4,7 @@
  * @LastEditors  : djkloop
  * @LastEditTime : 2021-09-19 14:11:52
  * @Description  : 头部注释
- * @FilePath     : /form-create2/tools/rollup/plugin/index.ts
+ * @FilePath     : /daisy-form2/tools/rollup/plugin/index.ts
  */
 import vue from 'rollup-plugin-vue';
 import postcss from 'rollup-plugin-postcss';

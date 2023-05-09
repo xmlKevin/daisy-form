@@ -1,9 +1,9 @@
-import extend from '@form-create/utils/lib/extend';
+import extend from '@daisy-form/utils/lib/extend';
 import {byCtx, copyRule, enumerable, getRule, invoke, parseFn} from '../frame/util';
-import is, {hasProperty} from '@form-create/utils/lib/type';
+import is, {hasProperty} from '@daisy-form/utils/lib/type';
 import {baseRule} from '../factory/creator';
 import RuleContext from '../factory/context';
-import mergeProps from '@form-create/utils/lib/mergeprops';
+import mergeProps from '@daisy-form/utils/lib/mergeprops';
 import {nextTick} from 'vue';
 
 const condition = {

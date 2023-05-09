@@ -1,4 +1,4 @@
-import is from '@form-create/utils/lib/type';
+import is from '@daisy-form/utils/lib/type';
 
 const required = {
     name: 'required',

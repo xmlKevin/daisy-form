@@ -34,11 +34,11 @@ export default function rule() {
 
 
         //autoComplete 自动选择组件
-        maker.auto('自动完成', 'auto', 'xaboy').props({options: [{value: 'aaa'}, {value: 'bbb'}]}).on({
+        maker.auto('自动完成', 'auto', 'xmlKevin').props({options: [{value: 'aaa'}, {value: 'bbb'}]}).on({
             search: function (inject, value) {
                 inject.self.props({options: !value ? [] : [{value}, {value: value + value}, {value: value + value + value}]});
             }
-        }).emitPrefix('xaboy').emit(['change']).inject(true),
+        }).emitPrefix('xmlKevin').emit(['change']).inject(true),
 
 
         //textarea 组件
@@ -240,11 +240,11 @@ export default function rule() {
             type: 'wangEditor',
             field: 'txt2',
             title: '富文本框',
-            value: '<h1 style="color: #419bf7;">form-create</h1><a href="https://github.com/xaboy/form-create">GitHub</a>'
+            value: '<h1 style="color: #419bf7;">daisy-form</h1><a href="https://github.com/xmlKevin/daisy-form">GitHub</a>'
         },
 
         //upload 上传组件
-        maker.upload('轮播图', 'pic', ['http://file.lotkk.com/form-create.jpeg'])
+        maker.upload('轮播图', 'pic', ['http://file.lotkk.com/daisy-form.jpeg'])
             .props({
                 'action': 'http://127.0.0.1:8324/api/test',
                 'limit': 2,
@@ -256,7 +256,7 @@ export default function rule() {
             }),
 
         //frame 框架组件
-        maker.frame('素材', 'fodder', ['http://file.lotkk.com/form-create.jpeg']).props({
+        maker.frame('素材', 'fodder', ['http://file.lotkk.com/daisy-form.jpeg']).props({
             src: '../iframe.html',
             maxLength: 0,
             type: 'image',

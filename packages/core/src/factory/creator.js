@@ -1,8 +1,8 @@
-import extend from '@form-create/utils/lib/extend';
-import is from '@form-create/utils/lib/type';
+import extend from '@daisy-form/utils/lib/extend';
+import is from '@daisy-form/utils/lib/type';
 import {attrs} from '../frame/attrs';
 import {copyRule, mergeRule} from '../frame/util';
-import {$set} from '@form-create/utils/lib/modify';
+import {$set} from '@daisy-form/utils/lib/modify';
 
 export function baseRule() {
     return {

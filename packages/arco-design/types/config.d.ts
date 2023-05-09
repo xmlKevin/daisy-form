@@ -1,4 +1,4 @@
-import {FormData, VNodeRule} from "@form-create/core";
+import {FormData, VNodeRule} from "@daisy-form/core";
 import {ButtonProps} from "@arco-design/web-vue/es/button";
 import {TooltipInstance} from "@arco-design/web-vue/es/tooltip";
 import {PopoverInstance} from "@arco-design/web-vue/es/popover";

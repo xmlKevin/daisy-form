@@ -4,7 +4,7 @@
  * @LastEditors  : djkloop
  * @LastEditTime : 2021-09-20 13:31:22
  * @Description  : 头部注释
- * @FilePath     : /form-create2/types/typing.d.ts
+ * @FilePath     : /daisy-form2/types/typing.d.ts
  */
 declare module '@sixian/css-url';
 declare module 'humps';

@@ -1,5 +1,5 @@
 {
-    "name": "@form-create/utils",
+    "name": "@daisy-form/utils",
     "version": "3.1.15",
     "description": "",
     "main": "./lib/index.js",
@@ -13,18 +13,18 @@
         "lib"
     ],
     "keywords": [
-        "@form-create"
+        "@daisy-form"
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/xaboy/form-create.git"
+        "url": "git+https://github.com/xmlKevin/daisy-form.git"
     },
-    "author": "xaboy",
+    "author": "xmlKevin",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/xaboy/form-create/issues"
+        "url": "https://github.com/xmlKevin/daisy-form/issues"
     },
-    "homepage": "http://www.form-create.com",
+    "homepage": "http://www.daisy-form.com",
     "publishConfig": {
         "access": "public"
     },

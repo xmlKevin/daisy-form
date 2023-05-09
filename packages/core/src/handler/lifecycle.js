@@ -1,5 +1,5 @@
-import extend from '@form-create/utils/lib/extend';
-import is from '@form-create/utils/lib/type';
+import extend from '@daisy-form/utils/lib/extend';
+import is from '@daisy-form/utils/lib/type';
 import {invoke} from '../frame/util';
 
 

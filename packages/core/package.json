@@ -1,11 +1,11 @@
 {
-    "name": "@form-create/core",
+    "name": "@daisy-form/core",
     "version": "3.1.21",
-    "description": "vue动态表单,助你轻松搞定表单|form-create is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON. Supports 5 UI frameworks, and supports the generation of any Vue components. Built-in 20 kinds of commonly used form components and custom components, no matter how complex forms can be easily handled.",
+    "description": "vue动态表单,助你轻松搞定表单|daisy-form is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON. Supports 5 UI frameworks, and supports the generation of any Vue components. Built-in 20 kinds of commonly used form components and custom components, no matter how complex forms can be easily handled.",
     "main": "./dist/index.min.js",
     "module": "./dist/index.esm.js",
-    "unpkg": "./dist/form-create.min.js",
-    "jsdelivr": "./dist/form-create.min.js",
+    "unpkg": "./dist/daisy-form.min.js",
+    "jsdelivr": "./dist/daisy-form.min.js",
     "typings": "./types/index.d.ts",
     "scripts": {
         "clean": "rimraf dist/",
@@ -14,11 +14,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/xaboy/form-create.git"
+        "url": "git+https://github.com/xmlKevin/daisy-form.git"
     },
     "keywords": [
         "动态表单",
-        "@form-create",
+        "@daisy-form",
         "form-builder",
         "form",
         "components",
@@ -34,23 +34,23 @@
         "types",
         "dist"
     ],
-    "author": "xaboy",
+    "author": "xmlKevin",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/xaboy/form-create/issues"
+        "url": "https://github.com/xmlKevin/daisy-form/issues"
     },
-    "homepage": "http://www.form-create.com/v3/",
+    "homepage": "http://www.daisy-form.com/v3/",
     "peerDependencies": {
         "vue": "^3.1.0"
     },
     "dependencies": {
-        "@form-create/utils": "^3.1.15"
+        "@daisy-form/utils": "^3.1.15"
     },
     "publishConfig": {
         "access": "public"
     },
     "buildFormCreateOptions": {
-        "name": "@form-create/core",
+        "name": "@daisy-form/core",
         "exportName": "formCreateFactory",
         "fileName": "index",
         "formats": [

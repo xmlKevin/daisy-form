@@ -1,6 +1,6 @@
 import Api from '../frame/api';
 import Render from '../render';
-import extend from '@form-create/utils/lib/extend';
+import extend from '@daisy-form/utils/lib/extend';
 import {funcProxy} from '../frame/util';
 import useInject from './inject';
 import usePage from './page';

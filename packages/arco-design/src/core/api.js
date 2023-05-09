@@ -1,7 +1,7 @@
-import extend from '@form-create/utils/lib/extend';
-import is from '@form-create/utils/lib/type';
-import {invoke} from '@form-create/core/src/frame/util';
-import toArray from '@form-create/utils/lib/toarray';
+import extend from '@daisy-form/utils/lib/extend';
+import is from '@daisy-form/utils/lib/type';
+import {invoke} from '@daisy-form/core/src/frame/util';
+import toArray from '@daisy-form/utils/lib/toarray';
 
 function tidyBtnProp(btn, def) {
     if (is.Boolean(btn))

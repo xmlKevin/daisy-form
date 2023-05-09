@@ -295,7 +295,7 @@ export default function jsonMock() {
             type: 'wangEditor',
             field: 'txt',
             title: '富文本框',
-            value: '<h1 style="color: #419bf7;">form-create</h1><a href="https://github.com/xaboy/form-create">GitHub</a>'
+            value: '<h1 style="color: #419bf7;">daisy-form</h1><a href="https://github.com/xmlKevin/daisy-form">GitHub</a>'
         },
 
         //upload 上传组件
@@ -303,7 +303,7 @@ export default function jsonMock() {
             type: 'upload',
             field: 'pic',
             title: '轮播图',
-            value: ['http://file.lotkk.com/form-create.jpeg'], //input值
+            value: ['http://file.lotkk.com/daisy-form.jpeg'], //input值
             props: {
                 uploadType: 'image',
                 action: 'http://0.0.0.0:8000/index/index/upload.html', //必选参数，上传的地址
@@ -319,7 +319,7 @@ export default function jsonMock() {
             type: 'frame',
             title: '素材',
             field: 'fodder',
-            value: ['http://file.lotkk.com/form-create.jpeg'],
+            value: ['http://file.lotkk.com/daisy-form.jpeg'],
             props: {
                 type: 'image', //frame类型,有input,file,image
                 src: '/iframe.html', //iframe地址

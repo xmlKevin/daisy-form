@@ -1,11 +1,11 @@
 {
-  "name": "@form-create/ant-design-vue",
+  "name": "@daisy-form/ant-design-vue",
   "version": "3.1.21",
-  "description": "ant-design-vue动态表单|form-create is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON. Supports 5 UI frameworks, and supports the generation of any Vue components. Built-in 20 kinds of commonly used form components and custom components, no matter how complex forms can be easily handled.",
-  "main": "./dist/form-create.min.js",
-  "module": "./dist/form-create.esm.js",
-  "unpkg": "./dist/form-create.min.js",
-  "jsdelivr": "./dist/form-create.min.js",
+  "description": "ant-design-vue动态表单|daisy-form is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON. Supports 5 UI frameworks, and supports the generation of any Vue components. Built-in 20 kinds of commonly used form components and custom components, no matter how complex forms can be easily handled.",
+  "main": "./dist/daisy-form.min.js",
+  "module": "./dist/daisy-form.esm.js",
+  "unpkg": "./dist/daisy-form.min.js",
+  "jsdelivr": "./dist/daisy-form.min.js",
   "typings": "./types/index.d.ts",
   "scripts": {
     "clean": "rimraf dist/",
@@ -15,11 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xaboy/form-create.git"
+    "url": "git+https://github.com/xmlKevin/daisy-form.git"
   },
   "keywords": [
     "动态表单",
-    "@form-create",
+    "@daisy-form",
     "form-builder",
     "form",
     "components",
@@ -38,19 +38,19 @@
     "types",
     "dist"
   ],
-  "author": "xaboy",
+  "author": "xmlKevin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xaboy/form-create/issues"
+    "url": "https://github.com/xmlKevin/daisy-form/issues"
   },
-  "homepage": "http://www.form-create.com/v3/",
+  "homepage": "http://www.daisy-form.com/v3/",
   "dependencies": {
-    "@form-create/component-antdv-frame": "^3.1.15",
-    "@form-create/component-antdv-group": "^3.1.19",
-    "@form-create/component-antdv-upload": "^3.1.15",
-    "@form-create/component-subform": "^3.1.5",
-    "@form-create/core": "^3.1.21",
-    "@form-create/utils": "^3.1.15"
+    "@daisy-form/component-antdv-frame": "^3.1.15",
+    "@daisy-form/component-antdv-group": "^3.1.19",
+    "@daisy-form/component-antdv-upload": "^3.1.15",
+    "@daisy-form/component-subform": "^3.1.5",
+    "@daisy-form/core": "^3.1.21",
+    "@daisy-form/utils": "^3.1.15"
   },
   "publishConfig": {
     "access": "public"
@@ -60,14 +60,14 @@
   },
   "devDependencies": {
     "@ant-design/icons-vue": "^6.0.1",
-    "@form-create/component-wangeditor": "^3.1.20",
+    "@daisy-form/component-wangeditor": "^3.1.20",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-service": "^4.5.3",
     "ant-design-vue": "^3.2.17",
     "v-jsoneditor": "^1.4.2"
   },
   "buildFormCreateOptions": {
-    "name": "@form-create/ant-design-vue",
+    "name": "@daisy-form/ant-design-vue",
     "exportName": "formCreate",
     "extendExternals": [
       "ant-design-vue",
@@ -77,7 +77,7 @@
     "extendGlobal": {
       "vue": "Vue"
     },
-    "fileName": "form-create",
+    "fileName": "daisy-form",
     "formats": [
       "umd",
       "esm"

@@ -1,10 +1,10 @@
-import unique from '@form-create/utils/lib/unique';
-import toCase from '@form-create/utils/lib/tocase';
-import extend from '@form-create/utils/lib/extend';
+import unique from '@daisy-form/utils/lib/unique';
+import toCase from '@daisy-form/utils/lib/tocase';
+import extend from '@daisy-form/utils/lib/extend';
 import {enumerable, invoke, mergeRule} from '../frame/util';
-import {deepCopy} from '@form-create/utils/lib/deepextend';
+import {deepCopy} from '@daisy-form/utils/lib/deepextend';
 import {markRaw, reactive} from 'vue';
-import is from '@form-create/utils/lib/type';
+import is from '@daisy-form/utils/lib/type';
 
 function isNone(ctx) {
     const none = !(is.Undef(ctx.prop.display) || !!ctx.prop.display);

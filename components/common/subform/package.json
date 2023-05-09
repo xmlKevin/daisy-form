@@ -1,7 +1,7 @@
 {
-  "name": "@form-create/component-subform",
+  "name": "@daisy-form/component-subform",
   "version": "3.1.5",
-  "description": "@form-create 内置组件",
+  "description": "@daisy-form 内置组件",
   "main": "./dist/index.min.js",
   "module": "./dist/index.esm.js",
   "unpkg": "./dist/index.min.js",
@@ -19,25 +19,25 @@
     "dist"
   ],
   "keywords": [
-    "@form-create",
-    "form-create-component",
-    "form-create-common-component"
+    "@daisy-form",
+    "daisy-form-component",
+    "daisy-form-common-component"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xaboy/form-create.git"
+    "url": "git+https://github.com/xmlKevin/daisy-form.git"
   },
-  "author": "xaboy",
+  "author": "xmlKevin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xaboy/form-create/issues"
+    "url": "https://github.com/xmlKevin/daisy-form/issues"
   },
-  "homepage": "http://www.form-create.com",
+  "homepage": "http://www.daisy-form.com",
   "publishConfig": {
     "access": "public"
   },
   "buildFormCreateOptions": {
-    "name": "@form-create/component-subform",
+    "name": "@daisy-form/component-subform",
     "exportName": "FcSubForm",
     "formats": [
       "umd",

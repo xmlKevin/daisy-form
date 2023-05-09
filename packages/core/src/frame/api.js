@@ -1,9 +1,9 @@
 import {byCtx, invoke, mergeRule, toJson} from './util';
-import {$set} from '@form-create/utils/lib/modify';
-import {deepCopy} from '@form-create/utils/lib/deepextend';
-import is, {hasProperty} from '@form-create/utils/lib/type';
-import extend from '@form-create/utils/lib/extend';
-import {format} from '@form-create/utils/lib/console';
+import {$set} from '@daisy-form/utils/lib/modify';
+import {deepCopy} from '@daisy-form/utils/lib/deepextend';
+import is, {hasProperty} from '@daisy-form/utils/lib/type';
+import extend from '@daisy-form/utils/lib/extend';
+import {format} from '@daisy-form/utils/lib/console';
 
 
 function copy(value) {

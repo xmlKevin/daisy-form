@@ -1,6 +1,6 @@
-import mergeProps from '@form-create/utils/lib/mergeprops';
-import unique from '@form-create/utils/lib/unique';
-import extend from '@form-create/utils/lib/extend';
+import mergeProps from '@daisy-form/utils/lib/mergeprops';
+import unique from '@daisy-form/utils/lib/unique';
+import extend from '@daisy-form/utils/lib/extend';
 
 export function createManager(proto) {
     class CustomManager extends Manager {

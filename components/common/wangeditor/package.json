@@ -1,7 +1,7 @@
 {
-  "name": "@form-create/component-wangeditor",
+  "name": "@daisy-form/component-wangeditor",
   "version": "3.1.20",
-  "description": "@form-create 富文本组件",
+  "description": "@daisy-form 富文本组件",
   "main": "./dist/index.min.js",
   "module": "./dist/index.esm.js",
   "unpkg": "./dist/index.min.js",
@@ -19,21 +19,21 @@
     "dist"
   ],
   "keywords": [
-    "@form-create",
+    "@daisy-form",
     "vue3",
-    "form-create-component",
-    "form-create-common-component"
+    "daisy-form-component",
+    "daisy-form-common-component"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xaboy/form-create.git"
+    "url": "git+https://github.com/xmlKevin/daisy-form.git"
   },
-  "author": "xaboy",
+  "author": "xmlKevin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xaboy/form-create/issues"
+    "url": "https://github.com/xmlKevin/daisy-form/issues"
   },
-  "homepage": "http://www.form-create.com",
+  "homepage": "http://www.daisy-form.com",
   "publishConfig": {
     "access": "public"
   },
@@ -41,7 +41,7 @@
     "wangeditor": "^4.6.0"
   },
   "buildFormCreateOptions": {
-    "name": "@form-create/component-wangeditor",
+    "name": "@daisy-form/component-wangeditor",
     "exportName": "FcEditor",
     "formats": [
       "umd",

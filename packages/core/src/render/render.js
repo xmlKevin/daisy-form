@@ -1,9 +1,9 @@
-import extend from '@form-create/utils/lib/extend';
-import mergeProps from '@form-create/utils/lib/mergeprops';
-import is, {hasProperty} from '@form-create/utils/lib/type';
+import extend from '@daisy-form/utils/lib/extend';
+import mergeProps from '@daisy-form/utils/lib/mergeprops';
+import is, {hasProperty} from '@daisy-form/utils/lib/type';
 import {invoke, makeSlotBag, mergeRule} from '../frame/util';
-import toCase, {lower} from '@form-create/utils/lib/tocase';
-import {deepSet, toLine} from '@form-create/utils';
+import toCase, {lower} from '@daisy-form/utils/lib/tocase';
+import {deepSet, toLine} from '@daisy-form/utils';
 import {computed, nextTick} from 'vue';
 
 export default function useRender(Render) {

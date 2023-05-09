@@ -285,14 +285,14 @@ export default function mock() {
             type: 'wangEditor',
             field: 'txt',
             title: '富文本框',
-            value: '<h1 style="color: #419bf7;">form-create</h1><a href="https://github.com/xaboy/form-create">GitHub</a>'
+            value: '<h1 style="color: #419bf7;">daisy-form</h1><a href="https://github.com/xmlKevin/daisy-form">GitHub</a>'
         },
 
         //upload 上传组件
-        maker.upload('轮播图', 'pic', ['http://file.lotkk.com/form-create.jpeg'])
+        maker.upload('轮播图', 'pic', ['http://file.lotkk.com/daisy-form.jpeg'])
             .props({
                 onSuccess(res) {
-                    res.file.url = 'http://file.lotkk.com/form-create.jpeg';
+                    res.file.url = 'http://file.lotkk.com/daisy-form.jpeg';
                     console.log('外面success', res)
                 },
                 action: 'https://service-bv448zsw-1257786608.gz.apigw.tencentcs.com/api/upload-demo',
@@ -307,7 +307,7 @@ export default function mock() {
         ]),
 
         //frame 框架组件
-        maker.frame('素材', 'fodder', ['http://file.lotkk.com/form-create.jpeg']).props({
+        maker.frame('素材', 'fodder', ['http://file.lotkk.com/daisy-form.jpeg']).props({
             src: '/iframe.html',
             maxLength: 0,
             type: 'image',

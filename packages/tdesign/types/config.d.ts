@@ -1,4 +1,4 @@
-import {FormData, VNodeRule} from "@form-create/core";
+import {FormData, VNodeRule} from "@daisy-form/core";
 import {ButtonProps, ColProps, RowProps, TooltipProps, PopupProps, FormItemProps, FormProps} from "tdesign-vue-next";
 import {Api} from "./index";
 

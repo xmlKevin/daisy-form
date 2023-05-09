@@ -1,5 +1,5 @@
 {
-    "name": "form-create",
+    "name": "daisy-form",
     "private": true,
     "scripts": {
         "build": "esno tools/cli/run.ts build",

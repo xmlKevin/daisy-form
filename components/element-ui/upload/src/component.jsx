@@ -1,5 +1,5 @@
-import toArray from '@form-create/utils/lib/toarray';
-import getSlot from '@form-create/utils/lib/slot';
+import toArray from '@daisy-form/utils/lib/toarray';
+import getSlot from '@daisy-form/utils/lib/slot';
 import './style.css';
 import {defineComponent} from 'vue';
 import IconUpload from './IconUpload.vue';

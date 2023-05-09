@@ -4,7 +4,7 @@
  * @LastEditors  : djkloop
  * @LastEditTime : 2021-10-04 19:33:38
  * @Description  : 头部注释
- * @FilePath     : /form-create2/tools/lib/build.ts
+ * @FilePath     : /daisy-form2/tools/lib/build.ts
  */
 import chalk from 'chalk';
 import ora from 'ora';

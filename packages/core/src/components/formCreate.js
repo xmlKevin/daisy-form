@@ -11,7 +11,7 @@ import {
     toRefs,
     watch
 } from 'vue';
-import toArray from '@form-create/utils/lib/toarray';
+import toArray from '@daisy-form/utils/lib/toarray';
 
 const NAME = 'FormCreate';
 

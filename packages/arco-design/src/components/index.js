@@ -1,9 +1,9 @@
-import Radio from '@form-create/component-arco-radio/src/index'
-import Checkbox from '@form-create/component-arco-checkbox/src/index'
-import Frame from '@form-create/component-arco-frame/src/index'
-import Group from '@form-create/component-arco-group/src/index'
-import Upload from '@form-create/component-arco-upload/src/index'
-import SubForm from '@form-create/component-subform/src/index'
+import Radio from '@daisy-form/component-arco-radio/src/index'
+import Checkbox from '@daisy-form/component-arco-checkbox/src/index'
+import Frame from '@daisy-form/component-arco-frame/src/index'
+import Group from '@daisy-form/component-arco-group/src/index'
+import Upload from '@daisy-form/component-arco-upload/src/index'
+import SubForm from '@daisy-form/component-subform/src/index'
 import IconInfoCircle from './icon/IconInfoCircle.vue'
 
 export default [

@@ -1,4 +1,4 @@
-import {FormData, VNodeRule} from "@form-create/core";
+import {FormData, VNodeRule} from "@daisy-form/core";
 import {ButtonProps,TooltipProps, PopoverProps, ColProps, RowProps, FormItemProps, FormProps} from "naive-ui";
 import {Api} from "./index";
 import {ValidateError} from "async-validator/dist-types/interface";

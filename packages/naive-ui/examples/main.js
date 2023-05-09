@@ -12,7 +12,7 @@ app.use(FormCreate)
 
 // import VJsoneditor from 'v-jsoneditor'
 import addressEffect from './addressEffect';
-import wangEditor from '@form-create/component-wangeditor/src'
+import wangEditor from '@daisy-form/component-wangeditor/src'
 
 
 // app.use(VJsoneditor)

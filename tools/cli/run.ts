@@ -4,7 +4,7 @@
  * @LastEditors  : djkloop
  * @LastEditTime : 2021-09-19 16:10:22
  * @Description  : 头部注释
- * @FilePath     : /form-create2/tools/cli/run.ts
+ * @FilePath     : /daisy-form2/tools/cli/run.ts
  */
 import {program} from 'commander';
 import path from 'path';
@@ -26,14 +26,14 @@ program.on('--help', () => {
 
 /// tools 版本
 program
-    .version(`@form-create/tools v${require(pkgUrl).version}`, '-v, --version', 'tools versions')
+    .version(`@daisy-form/tools v${require(pkgUrl).version}`, '-v, --version', 'tools versions')
 
 program
     .command('build [flag]')
     .description('build components && packages || build components || build packages')
-    .option('-a,--all', 'Build @form-create/[all]packages') /// 默认打包components和packages
-    .option('-c, --components <ui-compnents...>', 'Build @form-create/component-<ui-package> package or packages array') // 打单独的组件
-    .option('-p, --packages <ui-package...>', 'Build @form-create/<ui-package> package or packages array') // 打单独的包
+    .option('-a,--all', 'Build @daisy-form/[all]packages') /// 默认打包components和packages
+    .option('-c, --components <ui-compnents...>', 'Build @daisy-form/component-<ui-package> package or packages array') // 打单独的组件
+    .option('-p, --packages <ui-package...>', 'Build @daisy-form/<ui-package> package or packages array') // 打单独的包
     .action((_: any, cmd: any) => build(_, cleanArgs(cmd)));
 
 program.parse(process.argv);

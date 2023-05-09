@@ -1,6 +1,6 @@
-# @form-create/component-antdv-upload
+# @daisy-form/component-antdv-upload
 
-@form-create/ant-design-vue 内置组件
+@daisy-form/ant-design-vue 内置组件
 
-[GitHub](https://github.com/xaboy/form-create) | [文档](http://form-create.com/v3/) | [Document](http://form-create.com/v3/)
+[GitHub](https://github.com/xmlKevin/daisy-form) | [文档](http://daisy-form.com/v3/) | [Document](http://daisy-form.com/v3/)
 

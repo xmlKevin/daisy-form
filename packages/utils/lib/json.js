@@ -2,8 +2,8 @@ import deepExtend from './deepextend';
 import {err} from './console';
 import is, {hasProperty} from './type';
 
-const PREFIX = '[[FORM-CREATE-PREFIX-';
-const SUFFIX = '-FORM-CREATE-SUFFIX]]';
+const PREFIX = '[[daisy-form-PREFIX-';
+const SUFFIX = '-daisy-form-SUFFIX]]';
 
 const $T = '$FN:';
 const $TX = '$FNX:';

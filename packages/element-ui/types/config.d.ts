@@ -1,4 +1,4 @@
-import {FormData, VNodeRule} from "@form-create/core";
+import {FormData, VNodeRule} from "@daisy-form/core";
 import {ButtonProps, ValidateFieldCallback} from "element-plus";
 import {Api} from "./index";
 

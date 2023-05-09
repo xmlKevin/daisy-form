@@ -4,7 +4,7 @@
  * @LastEditors  : djkloop
  * @LastEditTime : 2020-08-15 22:00:47
  * @Description  : 头部注释
- * @FilePath     : /form-create2/packages/element-ui/examples/App.vue
+ * @FilePath     : /daisy-form2/packages/element-ui/examples/App.vue
 -->
 <template>
   <div>
@@ -78,7 +78,7 @@
     </div>
     <ARow>
       <h3>Render</h3>
-      <form-create :rule="rule" v-model:api="fapi" :option="option" v-model="formData" @prefix-change="change"
+      <daisy-form :rule="rule" v-model:api="fapi" :option="option" v-model="formData" @prefix-change="change"
                    :onBtn-click="btnClick"/>
     </ARow>
   </div>

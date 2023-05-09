@@ -1,4 +1,4 @@
-import toArray from '@form-create/utils/lib/toarray';
+import toArray from '@daisy-form/utils/lib/toarray';
 import checkbox from './checkbox';
 
 const name = 'select';

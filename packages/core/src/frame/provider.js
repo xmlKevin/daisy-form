@@ -1,7 +1,7 @@
-import {err} from '@form-create/utils/lib/console';
+import {err} from '@daisy-form/utils/lib/console';
 import {invoke} from './util';
-import is from '@form-create/utils/lib/type';
-import deepSet from '@form-create/utils/lib/deepset';
+import is from '@daisy-form/utils/lib/type';
+import deepSet from '@daisy-form/utils/lib/deepset';
 
 
 const fetch = function (fc) {

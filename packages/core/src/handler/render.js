@@ -1,4 +1,4 @@
-import extend from '@form-create/utils/lib/extend';
+import extend from '@daisy-form/utils/lib/extend';
 
 
 export default function useRender(Handler) {

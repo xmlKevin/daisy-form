@@ -4,7 +4,7 @@
  * @LastEditors   : djkloop
  * @LastEditTime  : 2020-12-23 13:47:39
  * @Description  : 头部注释
- * @FilePath      : /form-create2/packages/iview/vue.config.js
+ * @FilePath      : /daisy-form2/packages/iview/vue.config.js
  */
 module.exports = {
     pages: {

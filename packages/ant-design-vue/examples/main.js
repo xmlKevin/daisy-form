@@ -4,7 +4,7 @@
  * @LastEditors  : djkloop
  * @LastEditTime : 2020-08-15 22:01:32
  * @Description  : 头部注释
- * @FilePath     : /form-create2/packages/ant-design-vue/examples/main.js
+ * @FilePath     : /daisy-form2/packages/ant-design-vue/examples/main.js
  */
 import {createApp,h, inject, defineComponent} from 'vue'
 import FormCreate from '../src'
@@ -19,7 +19,7 @@ app.use(FormCreate)
 
 // import VJsoneditor from 'v-jsoneditor'
 import addressEffect from './addressEffect';
-import wangEditor from '@form-create/component-wangeditor/src'
+import wangEditor from '@daisy-form/component-wangeditor/src'
 
 
 // app.use(VJsoneditor)

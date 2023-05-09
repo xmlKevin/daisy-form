@@ -1,6 +1,6 @@
-import toLine from '@form-create/utils/lib/toline';
-import toString from '@form-create/utils/lib/tostring';
-import extend from '@form-create/utils/lib/extend';
+import toLine from '@daisy-form/utils/lib/toline';
+import toString from '@daisy-form/utils/lib/tostring';
+import extend from '@daisy-form/utils/lib/extend';
 import {toProps} from '../frame/util';
 import {createVNode, getCurrentInstance, resolveComponent, resolveDirective, withDirectives} from 'vue';
 

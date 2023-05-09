@@ -70,7 +70,7 @@
     </div>
     <NRow>
       <h3>Render</h3>
-      <form-create name="test" :rule="rule" v-model:api="fapi" :option="option" v-model="formData" @prefix-change="change"
+      <daisy-form name="test" :rule="rule" v-model:api="fapi" :option="option" v-model="formData" @prefix-change="change"
                    :onBtn-click="btnClick"/>
     </NRow>
   </div>

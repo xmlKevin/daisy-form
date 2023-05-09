@@ -1,6 +1,6 @@
-import extend from '@form-create/utils/lib/extend';
-import is from '@form-create/utils/lib/type';
-import toLine from '@form-create/utils/lib/toline';
+import extend from '@daisy-form/utils/lib/extend';
+import is from '@daisy-form/utils/lib/type';
+import toLine from '@daisy-form/utils/lib/toline';
 import {parseFn} from '../frame/util';
 
 

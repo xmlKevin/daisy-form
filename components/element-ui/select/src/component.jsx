@@ -1,5 +1,5 @@
 import {defineComponent, toRef} from 'vue';
-import getSlot from '@form-create/utils/lib/slot';
+import getSlot from '@daisy-form/utils/lib/slot';
 
 const NAME = 'fcSelect';
 

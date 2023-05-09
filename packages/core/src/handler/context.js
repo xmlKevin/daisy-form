@@ -1,8 +1,8 @@
-import extend from '@form-create/utils/lib/extend';
-import toCase from '@form-create/utils/lib/tocase';
+import extend from '@daisy-form/utils/lib/extend';
+import toCase from '@daisy-form/utils/lib/tocase';
 import BaseParser from '../factory/parser';
-import {$del} from '@form-create/utils/lib/modify';
-import is, {hasProperty} from '@form-create/utils/lib/type';
+import {$del} from '@daisy-form/utils/lib/modify';
+import is, {hasProperty} from '@daisy-form/utils/lib/type';
 import {invoke} from '../frame/util';
 import {toRef, watch} from 'vue';
 import {attrs} from '../frame/attrs';

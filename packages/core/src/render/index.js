@@ -1,6 +1,6 @@
 import useCache from './cache';
 import useRender from './render';
-import extend from '@form-create/utils/lib/extend';
+import extend from '@daisy-form/utils/lib/extend';
 import {funcProxy} from '../frame/util';
 
 let id = 1;

@@ -1,9 +1,9 @@
-import {hasProperty} from '@form-create/utils/lib/type';
+import {hasProperty} from '@daisy-form/utils/lib/type';
 import {defineComponent, markRaw, nextTick} from 'vue';
 import IconMinus from './IconMinus.vue';
 import IconPlus from './IconPlus.vue';
-import deepExtend, {deepCopy} from '@form-create/utils/lib/deepextend';
-import extend from '@form-create/utils/lib/extend';
+import deepExtend, {deepCopy} from '@daisy-form/utils/lib/deepextend';
+import extend from '@daisy-form/utils/lib/extend';
 
 const NAME = 'fcGroup';
 

@@ -15,7 +15,7 @@ module.exports = {
         }
     },
     banner: {
-        author: `2018-${new Date().getFullYear()} ${author}\n * Github https://github.com/xaboy/form-create`,
+        author: `2018-${new Date().getFullYear()} ${author}\n * Github https://github.com/xmlKevin/daisy-form`,
         license,
         name,
         version
@@ -27,7 +27,7 @@ module.exports = {
     output: {
         format: ['umd', 'umd-min'],
         moduleName: 'formCreate',
-        fileName: 'form-create[min].js',
+        fileName: 'daisy-form[min].js',
         extractCSS: false
     },
     input: join(cwd, '/src/index.js'),

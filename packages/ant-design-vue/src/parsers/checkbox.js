@@ -1,4 +1,4 @@
-import {hasProperty} from '@form-create/utils/lib/type';
+import {hasProperty} from '@daisy-form/utils/lib/type';
 
 export default {
     name: 'checkbox',

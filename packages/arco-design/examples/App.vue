@@ -70,7 +70,7 @@
     </div>
     <ARow>
       <h3>Render</h3>
-      <form-create :rule="rule" v-model:api="fapi" :option="option" v-model="formData" @prefix-change="change"
+      <daisy-form :rule="rule" v-model:api="fapi" :option="option" v-model="formData" @prefix-change="change"
                    :onBtn-click="btnClick"/>
     </ARow>
   </div>
