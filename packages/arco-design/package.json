@@ -1,6 +1,6 @@
 {
   "name": "@daisy-form/arco-design",
-  "version": "3.1.21",
+  "version": "3.1.22",
   "description": "arco-design动态表单|daisy-form is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON. Supports 5 UI frameworks, and supports the generation of any Vue components. Built-in 20 kinds of commonly used form components and custom components, no matter how complex forms can be easily handled.",
   "main": "./dist/daisy-form.min.js",
   "module": "./dist/daisy-form.esm.js",
@@ -45,14 +45,14 @@
   },
   "homepage": "http://www.daisy-form.com/v3/",
   "dependencies": {
-    "@daisy-form/component-arco-checkbox": "^3.1.15",
-    "@daisy-form/component-arco-frame": "^3.1.15",
-    "@daisy-form/component-arco-group": "^3.1.19",
-    "@daisy-form/component-arco-radio": "^3.1.15",
-    "@daisy-form/component-arco-upload": "^3.1.15",
-    "@daisy-form/component-subform": "^3.1.5",
-    "@daisy-form/core": "^3.1.21",
-    "@daisy-form/utils": "^3.1.15"
+    "@daisy-form/component-arco-checkbox": "^3.1.22",
+    "@daisy-form/component-arco-frame": "^3.1.22",
+    "@daisy-form/component-arco-group": "^3.1.22",
+    "@daisy-form/component-arco-radio": "^3.1.22",
+    "@daisy-form/component-arco-upload": "^3.1.22",
+    "@daisy-form/component-subform": "^3.1.22",
+    "@daisy-form/core": "^3.1.22",
+    "@daisy-form/utils": "^3.1.22"
   },
   "publishConfig": {
     "access": "public"
@@ -62,7 +62,7 @@
   },
   "devDependencies": {
     "@arco-design/web-vue": "^2.45.1",
-    "@daisy-form/component-wangeditor": "^3.1.20",
+    "@daisy-form/component-wangeditor": "^3.1.22",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-service": "^4.5.3",
     "v-jsoneditor": "^1.4.2"

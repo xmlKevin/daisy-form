@@ -1,6 +1,6 @@
 {
     "name": "@daisy-form/tdesign",
-    "version": "3.1.21",
+    "version": "3.1.22",
     "description": "tdesign动态表单|daisy-form is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON. Supports 5 UI frameworks, and supports the generation of any Vue components. Built-in 20 kinds of commonly used form components and custom components, no matter how complex forms can be easily handled.",
     "main": "./dist/daisy-form.min.js",
     "module": "./dist/daisy-form.esm.js",
@@ -45,12 +45,12 @@
     },
     "homepage": "http://www.daisy-form.com/v3/",
     "dependencies": {
-        "@daisy-form/component-subform": "^3.0.0-alpha.2",
-        "@daisy-form/component-tdesign-frame": "^3.1.15",
-        "@daisy-form/component-tdesign-group": "^3.1.19",
-        "@daisy-form/component-tdesign-upload": "^3.1.18",
-        "@daisy-form/core": "^3.1.21",
-        "@daisy-form/utils": "^3.1.15"
+        "@daisy-form/component-subform": "^3.1.22",
+        "@daisy-form/component-tdesign-frame": "^3.1.22",
+        "@daisy-form/component-tdesign-group": "^3.1.22",
+        "@daisy-form/component-tdesign-upload": "^3.1.22",
+        "@daisy-form/core": "^3.1.22",
+        "@daisy-form/utils": "^3.1.22"
     },
     "publishConfig": {
         "access": "public"
@@ -59,7 +59,7 @@
         "vue": "^3.1.0"
     },
     "devDependencies": {
-        "@daisy-form/component-wangeditor": "^3.1.20",
+        "@daisy-form/component-wangeditor": "^3.1.22",
         "@vue/cli-plugin-babel": "~4.5.0",
         "@vue/cli-service": "^4.5.3",
         "tdesign-vue-next": "^1.3.0"

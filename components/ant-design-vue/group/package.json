@@ -1,6 +1,6 @@
 {
   "name": "@daisy-form/component-antdv-group",
-  "version": "3.1.19",
+  "version": "3.1.22",
   "description": "@daisy-form/ant-design-vue 内置组件",
   "main": "./dist/index.min.js",
   "module": "./dist/index.esm.js",
@@ -30,7 +30,7 @@
   "author": "xmlKevin",
   "license": "MIT",
   "dependencies": {
-    "@daisy-form/utils": "^3.1.15"
+    "@daisy-form/utils": "^3.1.22"
   },
   "devDependencies": {
     "@ant-design/icons-vue": "^6.0.1"
